@@ -1,3 +1,5 @@
+//This is a Binary Search Program
+
 def binarySearch(arr, l, r, x):
     if r >= l:
         mid = l + (r - l) // 2
@@ -16,3 +18,5 @@ if result != -1:
     print("Element is present at index % d" % result)
 else:
     print("Element is not present in array")
+
+// End of the program
